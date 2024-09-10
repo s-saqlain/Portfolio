@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+   padding: 15px;
+   align-items: center;
+   
+}
+
+li{
+    list-style: none;
+    padding-left: 10px;
+    margin-left: 60px;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+li a{
+    color: black;
+    text-decoration: none;
+    color: white;
+}
+
+.list{
+    display: flex;
+    margin-right: 50px;
+    
+}
+
+nav .portfolio{
+    font-family: Oswald, sans-serif;
+    font-size: 3rem;
+    color:  rgb(190, 0, 0);
+    margin-left: 50px;
+    font-weight: bold;
+   
+}
+.line1{
+    width: 94vw;
+    height: 3px;
+    margin-left:45px ;
+    background-color: rgb(190, 0, 0);
+}
+
+.ContentContainer{
+    margin-top: 7%;
+    margin-left: 5%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 20px;
+  
+    
+}
+
+.ContentContainer div{
+    height: 30vh;
+    width: 30vw;
+    background-color: rgb(190, 0, 0);
+    border-radius: 23px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+    
+}
+.igniteHead, .motionCut{
+    margin-left: 33%;
+    background-color: rgb(190, 0, 0);
+}
+
+.igniteChief, .epoch{
+    margin-right: 290px;
+    min-height: 100%;
+}
+
+h2,h3,p{
+    background-color: rgb(190, 0, 0);
+}
+p,h3{
+    padding-top: 10px;
+    ;
+}
+h3{
+    font-family: "Roboto", sans-serif
+}
+
+.ContentContainer div:hover{
+    border: 5px solid rgb(255, 255, 255);
+    box-shadow: 0px 0px 40px 10px rgb(179, 0, 0) ;
+
+}

@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+   
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+   padding: 15px;
+   align-items: center;
+   
+}
+
+li{
+    list-style: none;
+    padding-left: 10px;
+    margin-left: 60px;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+li a{
+    color: black;
+    text-decoration: none;
+    color: white;
+}
+
+.list{
+    display: flex;
+    margin-right: 50px;
+    
+}
+
+nav .portfolio{
+    font-family: Oswald, sans-serif;
+    font-size: 3rem;
+    color:  rgb(190, 0, 0);
+    margin-left: 50px;
+    font-weight: bold;
+}
+.line1{
+    width: 94vw;
+    height: 3px;
+    margin-left:45px ;
+    background-color: rgb(190, 0, 0);
+}
+.contentContainer{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 86vh;
+    width: 100vw;
+    font-family:  "Roboto", sans-serif;
+   
+}
+
+.contentContainer div{
+    
+    width: 350px;
+    height: 150px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 3px solid  rgb(190, 0, 0);
+    
+}
+
+.line{
+    width: 70vw;
+    height: 3px;
+    border-radius: 9px;
+    background-color: rgb(190, 0, 0);
+    margin-left: 15vw;
+    position: absolute;
+    margin-top: -20.5%;
+    box-shadow: 0px 0px 10px 2px rgb(179, 0, 0) ;
+}
+.BCA{
+    margin-top: 8%;
+    text-align: center;
+    margin-left: 80px;
+}
+
+.tenth{
+    margin-top: 8%;
+    text-align: center;
+    margin-right: 70px;
+}
+.twelveth{
+    margin: 0px 13%;
+    margin-top: 23%;
+    text-align: center;
+}
+
+.contentContainer div:hover{
+   
+    box-shadow: 0px 0px 40px 10px rgb(179, 0, 0) ;
+}
+
+.dot {
+    width: 25px;
+    height: 25px;
+    background-color:rgb(190, 0, 0);
+    border-radius: 50%;
+    position: absolute;
+    top: -9px; 
+    box-shadow: 0px 0px 20px 6px rgb(179, 0, 0);
+}
+
+.dot1{
+    left: -8px;
+}
+.dot2 {
+    left: 34vw; 
+}
+
+.dot3 {
+    left: 69.3vw; 
+}
+
+.year {
+    position: absolute;
+    font-size: 1.2rem;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+   background-color: rgb(190, 0, 0);
+    border-radius: 34px;
+    padding: 8px 20px;
+}
+
+.yearAbove {
+    top: -35px; 
+}
+
+.yearBelow {
+    top: 20px; 
+}
+
+.year1 {
+    left: 32vw;
+    top: -10vh;
+}
+
+.year2 {
+    top: 5vh;
+    left: -4.5vw;
+}
+
+.year3 {
+    top: 5vh;
+    left: 67.7vw; /* 2019 below the third dot */
+}
